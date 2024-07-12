@@ -30,7 +30,6 @@ public class Reverse_Word_In_A_StringTest {
     public void reverseWordsTest(){
 
         System.err.println("Thread name :: " + Thread.currentThread().getName());
-        System.err.println("Time Stamp :: " + LocalDateTime.now());
 
         String actual = Reverse_Word_In_A_String.reverseWords("the sky is blue");
         String expected = "blue is sky the";
