@@ -27,6 +27,7 @@ public class LeetcodeApplication implements ApplicationRunner {
 				.forEach(System.out::println);
 
 		System.out.println("Test");
+		System.out.println("Test1");
 
 	}
 }
