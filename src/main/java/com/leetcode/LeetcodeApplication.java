@@ -26,5 +26,7 @@ public class LeetcodeApplication implements ApplicationRunner {
 						.anyMatch(address -> "Sangli".equalsIgnoreCase(address.getDistrict())))
 				.forEach(System.out::println);
 
+		System.out.println("Test");
+
 	}
 }
